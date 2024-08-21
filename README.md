@@ -5,7 +5,7 @@ Github is popular because it serves as a cloud or host for you to share your fil
 Version control helps maintain your project's integrity by allowing you to track every change made to your project, allowing developers to understand what has been changed, when, and by whom. it also gives you control access to decide to revert, merge, or delete different branches of the project 
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
-Setting up a new repository on github starts with signing up on github for new users, after creating an account the next step is to Click on the “+” icon in the top-right corner of the page and select “New repository” from the dropdown menu after that the next step is to configure the repository details by setting a name for the repository and details, the visibity decide if it will be a private or public include a readd me file for more informations on the repository and also the license
+Setting up a new repository on github starts with signing up on github for new users, after creating an account the next step is to Click on the “+” icon in the top-right corner of the page and select “New repository” from the dropdown menu after that the next step is to configure the repository details by setting a name for the repository and details, the visibility decide if it will be a private or public include a readd me file for more informations on the repository and also the license
 some of the important decisions to make includes:
 1.the name of the repository
 2. the visibility, if its going to be private or public
@@ -40,6 +40,20 @@ The process of creating a new branch starts when editing the main branch after m
 
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+Pull requests is a feature of the GitHub workflow that facilitates code review, collaboration, and integration. They provide a structured way to propose changes, discuss modifications, and ensure quality before merging changes into the main branch.
+They Faciliate code review by:
+1. enabling team members to discuss proposed changes, suggest improvements and decide on best lines of code
+2. make it clear what changes are being proposed and why for every one to keep track
+3. allows new changes to be tested through continuous integration (CI) workflows, ensuring that new changes do not introduce bugs or break existing functionality.
+steps involved in creating and Merging a pull requests includes:
+1. identifying the repository with which you want to make changes
+2. Click on the “Pull requests” tab
+3. Click the “New pull request” button
+4. Select the base branch (e.g., main or develop) and compare it with your feature branch
+5. Fill out pull request details, including the title, descriptions and comments
+6. Click the “Create pull request” button to submit it for review
+7. other team members can then review the request and changes made and make alterations if neccessary
+8. after all reviews have been done then you can proceed to merge pull request.
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
