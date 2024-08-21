@@ -7,9 +7,9 @@ Version control helps maintain your project's integrity by allowing you to track
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 Setting up a new repository on github starts with signing up on github for new users, after creating an account the next step is to Click on the “+” icon in the top-right corner of the page and select “New repository” from the dropdown menu after that the next step is to configure the repository details by setting a name for the repository and details, the visibity decide if it will be a private or public include a readd me file for more informations on the repository and also the license
 some of the important decisions to make includes:
-a.the name of the repository
-b. the visibility, if its going to be private or public
-c. the type of license 
+1.the name of the repository
+2. the visibility, if its going to be private or public
+3. the type of license 
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 README file is important because it provides information about the repository, It serves as the primary source of information for anyone interacting with the repository
@@ -23,13 +23,13 @@ private repository is ideal for confidentiality and pose no risks of theft of pr
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 the steps i took in making  my first commit:
-a. first is downloaded and installed a version control system git bash
-b. afterwards, i changed directory to the folder i want to using the cd ..
-c. then innitiated git using git innit 
-d. then i configured git using git config --global user.name harjybhorlah and git config --global user.email olamilekanajibola67@gmail.com
-c. then i checked status using git status to see the files on my local machine that i could add 
-d. then i used git add. to add all the file from  my folder 
-e. finally i usd git commit to commit the files to my github repository
+1. firstly i downloaded and installed a version control system git bash
+2. afterwards, i changed directory to the folder i want to using the cd ..
+3. then innitiated git using git innit 
+4. then i configured git using git config --global user.name harjybhorlah and git config --global user.email olamilekanajibola67@gmail.com
+5. then i checked status using git status to see the files on my local machine that i could add 
+6. then i used git add. to add all the file from  my folder 
+7. finally i used git commit to commit the files to my github repository
 
 
 
